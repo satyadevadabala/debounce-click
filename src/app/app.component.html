@@ -1,0 +1,9 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Button Counter: {{btnClickCounter}}
+</p>
+<p>
+<button (click)="search()" type="button">buttonCounter</button>
+</p>
+
+<button appDebounceClick (debounceClick)="search()" [debounceTime]="1000" type="button">buttonCounter Debounced</button>
